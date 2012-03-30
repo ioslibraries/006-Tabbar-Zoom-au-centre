@@ -7,15 +7,23 @@
 //
 
 #import "ILAppDelegate.h"
+#import "CustomTabbarController.h"
 
 @implementation ILAppDelegate
 
 @synthesize window = _window;
+@synthesize navController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+    
+    CustomTabbarController* viewController = [[CustomTabbarController alloc] initWithNibName:nil bundle:nil];
+    viewController.title = @"Custom Tabbar";    
+    
+    self.navController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    [self.window setRootViewController:navController];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

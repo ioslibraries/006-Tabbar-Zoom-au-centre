@@ -13,6 +13,21 @@
 		354999501522367B0050FD53 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3549994E1522367B0050FD53 /* InfoPlist.strings */; };
 		354999521522367B0050FD53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 354999511522367B0050FD53 /* main.m */; };
 		354999561522367B0050FD53 /* ILAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 354999551522367B0050FD53 /* ILAppDelegate.m */; };
+		35499963152237480050FD53 /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35499961152237480050FD53 /* CustomViewController.m */; };
+		35499964152237480050FD53 /* CustomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35499962152237480050FD53 /* CustomViewController.xib */; };
+		3549997715223B4D0050FD53 /* camera_button_take.png in Resources */ = {isa = PBXBuildFile; fileRef = 3549996B15223B4D0050FD53 /* camera_button_take.png */; };
+		3549997815223B4D0050FD53 /* camera_button_take@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3549996C15223B4D0050FD53 /* camera_button_take@2x.png */; };
+		3549997915223B4D0050FD53 /* tab_feed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3549996D15223B4D0050FD53 /* tab_feed.png */; };
+		3549997A15223B4D0050FD53 /* tab_feed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3549996E15223B4D0050FD53 /* tab_feed@2x.png */; };
+		3549997B15223B4D0050FD53 /* tab_feed_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 3549996F15223B4D0050FD53 /* tab_feed_profile.png */; };
+		3549997C15223B4D0050FD53 /* tab_feed_profile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3549997015223B4D0050FD53 /* tab_feed_profile@2x.png */; };
+		3549997D15223B4D0050FD53 /* tab_live.png in Resources */ = {isa = PBXBuildFile; fileRef = 3549997115223B4D0050FD53 /* tab_live.png */; };
+		3549997E15223B4D0050FD53 /* tab_live@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3549997215223B4D0050FD53 /* tab_live@2x.png */; };
+		3549997F15223B4D0050FD53 /* tab_messages.png in Resources */ = {isa = PBXBuildFile; fileRef = 3549997315223B4D0050FD53 /* tab_messages.png */; };
+		3549998015223B4D0050FD53 /* tab_messages@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3549997415223B4D0050FD53 /* tab_messages@2x.png */; };
+		3549998115223B4D0050FD53 /* tabBar_cameraButton_ready_matte.png in Resources */ = {isa = PBXBuildFile; fileRef = 3549997515223B4D0050FD53 /* tabBar_cameraButton_ready_matte.png */; };
+		3549998215223B4D0050FD53 /* tabBar_cameraButton_ready_matte@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3549997615223B4D0050FD53 /* tabBar_cameraButton_ready_matte@2x.png */; };
+		3549998A152241B70050FD53 /* CustomTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35499989152241B60050FD53 /* CustomTabbarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +35,29 @@
 		354999451522367B0050FD53 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		354999471522367B0050FD53 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		354999491522367B0050FD53 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3549994D1522367B0050FD53 /* iOSLibraries-Info.plist */ = {isa = PBXFileReference; path = "iOSLibraries-Info.plist"; sourceTree = "<group>"; };
+		3549994D1522367B0050FD53 /* iOSLibraries-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSLibraries-Info.plist"; sourceTree = "<group>"; };
 		3549994F1522367B0050FD53 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		354999511522367B0050FD53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		354999531522367B0050FD53 /* iOSLibraries-Prefix.pch */ = {isa = PBXFileReference; path = "iOSLibraries-Prefix.pch"; sourceTree = "<group>"; };
-		354999541522367B0050FD53 /* ILAppDelegate.h */ = {isa = PBXFileReference; path = ILAppDelegate.h; sourceTree = "<group>"; };
+		354999531522367B0050FD53 /* iOSLibraries-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSLibraries-Prefix.pch"; sourceTree = "<group>"; };
+		354999541522367B0050FD53 /* ILAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ILAppDelegate.h; sourceTree = "<group>"; };
 		354999551522367B0050FD53 /* ILAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ILAppDelegate.m; sourceTree = "<group>"; };
+		35499960152237480050FD53 /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		35499961152237480050FD53 /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
+		35499962152237480050FD53 /* CustomViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomViewController.xib; sourceTree = "<group>"; };
+		3549996B15223B4D0050FD53 /* camera_button_take.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_button_take.png; sourceTree = "<group>"; };
+		3549996C15223B4D0050FD53 /* camera_button_take@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_button_take@2x.png"; sourceTree = "<group>"; };
+		3549996D15223B4D0050FD53 /* tab_feed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_feed.png; sourceTree = "<group>"; };
+		3549996E15223B4D0050FD53 /* tab_feed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_feed@2x.png"; sourceTree = "<group>"; };
+		3549996F15223B4D0050FD53 /* tab_feed_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_feed_profile.png; sourceTree = "<group>"; };
+		3549997015223B4D0050FD53 /* tab_feed_profile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_feed_profile@2x.png"; sourceTree = "<group>"; };
+		3549997115223B4D0050FD53 /* tab_live.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_live.png; sourceTree = "<group>"; };
+		3549997215223B4D0050FD53 /* tab_live@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_live@2x.png"; sourceTree = "<group>"; };
+		3549997315223B4D0050FD53 /* tab_messages.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_messages.png; sourceTree = "<group>"; };
+		3549997415223B4D0050FD53 /* tab_messages@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_messages@2x.png"; sourceTree = "<group>"; };
+		3549997515223B4D0050FD53 /* tabBar_cameraButton_ready_matte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBar_cameraButton_ready_matte.png; sourceTree = "<group>"; };
+		3549997615223B4D0050FD53 /* tabBar_cameraButton_ready_matte@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_cameraButton_ready_matte@2x.png"; sourceTree = "<group>"; };
+		35499988152241B60050FD53 /* CustomTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabbarController.h; sourceTree = "<group>"; };
+		35499989152241B60050FD53 /* CustomTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabbarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,9 +104,13 @@
 		3549994B1522367B0050FD53 /* iOSLibraries */ = {
 			isa = PBXGroup;
 			children = (
+				3549996A15223B4D0050FD53 /* images */,
+				3549995C152236FC0050FD53 /* view controllers */,
 				354999541522367B0050FD53 /* ILAppDelegate.h */,
 				354999551522367B0050FD53 /* ILAppDelegate.m */,
 				3549994C1522367B0050FD53 /* Supporting Files */,
+				35499988152241B60050FD53 /* CustomTabbarController.h */,
+				35499989152241B60050FD53 /* CustomTabbarController.m */,
 			);
 			path = iOSLibraries;
 			sourceTree = "<group>";
@@ -88,6 +124,35 @@
 				354999531522367B0050FD53 /* iOSLibraries-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3549995C152236FC0050FD53 /* view controllers */ = {
+			isa = PBXGroup;
+			children = (
+				35499960152237480050FD53 /* CustomViewController.h */,
+				35499961152237480050FD53 /* CustomViewController.m */,
+				35499962152237480050FD53 /* CustomViewController.xib */,
+			);
+			name = "view controllers";
+			sourceTree = "<group>";
+		};
+		3549996A15223B4D0050FD53 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3549996B15223B4D0050FD53 /* camera_button_take.png */,
+				3549996C15223B4D0050FD53 /* camera_button_take@2x.png */,
+				3549996D15223B4D0050FD53 /* tab_feed.png */,
+				3549996E15223B4D0050FD53 /* tab_feed@2x.png */,
+				3549996F15223B4D0050FD53 /* tab_feed_profile.png */,
+				3549997015223B4D0050FD53 /* tab_feed_profile@2x.png */,
+				3549997115223B4D0050FD53 /* tab_live.png */,
+				3549997215223B4D0050FD53 /* tab_live@2x.png */,
+				3549997315223B4D0050FD53 /* tab_messages.png */,
+				3549997415223B4D0050FD53 /* tab_messages@2x.png */,
+				3549997515223B4D0050FD53 /* tabBar_cameraButton_ready_matte.png */,
+				3549997615223B4D0050FD53 /* tabBar_cameraButton_ready_matte@2x.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +207,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				354999501522367B0050FD53 /* InfoPlist.strings in Resources */,
+				35499964152237480050FD53 /* CustomViewController.xib in Resources */,
+				3549997715223B4D0050FD53 /* camera_button_take.png in Resources */,
+				3549997815223B4D0050FD53 /* camera_button_take@2x.png in Resources */,
+				3549997915223B4D0050FD53 /* tab_feed.png in Resources */,
+				3549997A15223B4D0050FD53 /* tab_feed@2x.png in Resources */,
+				3549997B15223B4D0050FD53 /* tab_feed_profile.png in Resources */,
+				3549997C15223B4D0050FD53 /* tab_feed_profile@2x.png in Resources */,
+				3549997D15223B4D0050FD53 /* tab_live.png in Resources */,
+				3549997E15223B4D0050FD53 /* tab_live@2x.png in Resources */,
+				3549997F15223B4D0050FD53 /* tab_messages.png in Resources */,
+				3549998015223B4D0050FD53 /* tab_messages@2x.png in Resources */,
+				3549998115223B4D0050FD53 /* tabBar_cameraButton_ready_matte.png in Resources */,
+				3549998215223B4D0050FD53 /* tabBar_cameraButton_ready_matte@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +232,8 @@
 			files = (
 				354999521522367B0050FD53 /* main.m in Sources */,
 				354999561522367B0050FD53 /* ILAppDelegate.m in Sources */,
+				35499963152237480050FD53 /* CustomViewController.m in Sources */,
+				3549998A152241B70050FD53 /* CustomTabbarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +337,7 @@
 				3549995B1522367B0050FD53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
